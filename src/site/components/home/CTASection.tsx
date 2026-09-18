@@ -6,7 +6,7 @@ import { ArrowRight } from "lucide-react";
 const CTASection = () => {
   return (
     <section className="relative site-section-tint overflow-hidden py-24">
-      <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-secondary/30 via-background to-muted/10" />
+      <div className="pointer-events-none absolute inset-0 bg-muted/20" />
       <div className="pointer-events-none absolute left-1/2 bottom-0 h-[400px] w-[600px] -translate-x-1/2 translate-y-1/2 rounded-full bg-primary/5 blur-3xl" />
       <div className="container relative z-10">
         <motion.div
@@ -24,7 +24,7 @@ const CTASection = () => {
           </p>
           <div className="flex flex-wrap items-center justify-center gap-4">
             <a href="/signup">
-              <Button size="lg" className="gap-2 rounded-full bg-gradient-to-r from-[hsl(var(--primary))] to-[hsl(var(--medical-teal))] px-8 text-white shadow-lg hover:opacity-90">
+              <Button size="lg" className="gap-2 rounded-md bg-primary px-8 text-white shadow-lg hover:opacity-90">
                 Get Started <ArrowRight className="h-4 w-4" />
               </Button>
             </a>

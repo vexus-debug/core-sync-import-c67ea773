@@ -10,19 +10,19 @@ const steps = [
   {
     icon: Settings,
     title: "It Fits the Way You Work",
-    description: "Add your treatments, your staff, your schedules. Clinexus bends to fit your clinic — you don't bend to fit it.",
+    description: "Add your treatments, your staff, your schedules. Clinexus bends to fit your clinic, you don't bend to fit it.",
   },
   {
     icon: Rocket,
     title: "Watch Your Clinic Transform",
-    description: "From the first appointment booked to the first invoice paid without a phone call — you'll wonder how you managed without it.",
+    description: "From the first appointment booked to the first invoice paid without a phone call, you'll wonder how you managed without it.",
   },
 ];
 
 const HowItWorksSection = () => {
   return (
     <section className="relative site-section-tint overflow-hidden py-24 md:py-32">
-      <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-muted/30 via-background to-secondary/20" />
+      <div className="pointer-events-none absolute inset-0 bg-muted/20" />
 
       <div className="container relative z-10">
         <motion.div
@@ -44,7 +44,7 @@ const HowItWorksSection = () => {
         </motion.div>
 
         <div className="relative mx-auto max-w-5xl">
-          <div className="pointer-events-none absolute left-1/2 top-0 hidden h-full w-px -translate-x-1/2 bg-gradient-to-b from-primary/20 via-primary/40 to-primary/20 lg:block" />
+          <div className="pointer-events-none absolute left-1/2 top-0 hidden h-full w-px -translate-x-1/2 bg-muted/20 lg:block" />
 
           <div className="flex flex-col gap-16 lg:gap-0">
             {steps.map((step, i) => {

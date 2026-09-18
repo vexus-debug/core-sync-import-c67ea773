@@ -9,7 +9,7 @@ const values = [
   { icon: Shield, title: "Your Patients' Trust, Protected", description: "One data slip can wreck a clinic's reputation. We lock patient records down tight, so that's never something you have to worry about." },
   { icon: Zap, title: "Always On, Every Shift", description: "A system that goes down mid-appointment costs you money and trust. Clinexus stays up 99.9% of the time, so your day never stalls." },
   { icon: Lightbulb, title: "We Keep Getting Better", description: "You shouldn't have to switch platforms as your clinic grows. We add what clinic owners ask for, every month, at no extra cost to you." },
-  { icon: Heart, title: "Made for Clinics, Not Offices", description: "No generic business software here. Every screen is built around how a real clinic runs — from the front desk to the treatment room." },
+  { icon: Heart, title: "Made for Clinics, Not Offices", description: "No generic business software here. Every screen is built around how a real clinic runs, from the front desk to the treatment room." },
 ];
 
 const stats = [
@@ -23,7 +23,7 @@ const pillars = [
   {
     icon: Target,
     title: "Our Mission",
-    description: "Every Nigerian clinic deserves to run without chaos — whether you're a solo practitioner or a multi-department facility. We give you one system to handle it all, so you can focus on patients, not paperwork.",
+    description: "Every Nigerian clinic deserves to run without chaos, whether you're a solo practitioner or a multi-department facility. We give you one system to handle it all, so you can focus on patients, not paperwork.",
   },
   {
     icon: Globe,
@@ -33,17 +33,17 @@ const pillars = [
   {
     icon: Award,
     title: "Our Commitment",
-    description: "We listen to clinic owners first. Every feature comes from real conversations, every update is tested against real clinic days. We don't ship theory — we ship what actually works for you.",
+    description: "We listen to clinic owners first. Every feature comes from real conversations, every update is tested against real clinic days. We don't ship theory, we ship what actually works for you.",
   },
 ];
 
 const whyUs = [
-  "Built around Nigerian billing and healthcare rules — no awkward workarounds",
-  "Get set up and live in under 24 hours, no headaches",
-  "Your data stays on Nigerian servers, always",
-  "Real people to help you get started and stay supported",
-  "New features added regularly, at no extra cost to you",
-  "Grows with you, from one room to a multi-branch clinic",
+"Built around Nigerian billing and healthcare rules, no awkward workarounds",
+"Get set up and live in under 24 hours, no headaches",
+"Your data stays on Nigerian servers, always",
+"Real people to help you get started and stay supported",
+"New features added regularly, at no extra cost to you",
+"Grows with you, from one room to a multi-branch clinic",
 ];
 
 const About = () => {
@@ -56,7 +56,7 @@ const About = () => {
             <div key={i} className="absolute rounded-full border border-white/[0.04]" style={{ width: size, height: size }} />
           ))}
         </div>
-        <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[hsl(var(--medical-blue-dark))]" />
+        <div className="pointer-events-none absolute inset-0 " />
         <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(ellipse_at_top_right,hsl(var(--primary)/0.12),transparent_60%)]" />
 
         <div className="container relative z-10">
@@ -71,12 +71,12 @@ const About = () => {
             </span>
             <h1 className="mb-6 text-4xl font-extrabold leading-[1.1] tracking-tight text-white md:text-5xl lg:text-6xl">
               We Help You Run a{" "}
-              <span className="bg-gradient-to-r from-[hsl(var(--primary))] to-[hsl(var(--medical-teal))] bg-clip-text text-transparent">
+              <span className="bg-primary ">
                 Calmer, More Profitable Clinic
               </span>
             </h1>
             <p className="mx-auto max-w-2xl text-lg leading-relaxed text-white/60">
-              Clinexus is Nigeria's dedicated clinic management platform, built to end the daily chaos and give you back control — and your evenings.
+              Clinexus is Nigeria's dedicated clinic management platform, built to end the daily chaos and give you back control, and your evenings.
             </p>
           </motion.div>
         </div>
@@ -84,20 +84,20 @@ const About = () => {
 
       {/* Story */}
       <section className="relative site-section-light overflow-hidden py-24">
-        <div className="pointer-events-none absolute inset-0 bg-gradient-to-br from-secondary/40 via-background to-muted/30" />
+        <div className="pointer-events-none absolute inset-0 bg-background" />
         <div className="container relative z-10">
           <div className="grid items-center gap-16 lg:grid-cols-2">
             <motion.div initial={{ opacity: 0, x: -30 }} whileInView={{ opacity: 1, x: 0 }} viewport={{ once: true }} transition={{ duration: 0.6 }}>
               <span className="mb-3 inline-block text-sm font-semibold uppercase tracking-widest text-primary">Our Story</span>
               <h2 className="mb-6 text-3xl font-bold text-foreground leading-tight">We Saw the Chaos.<br />We Built the Fix.</h2>
               <p className="mb-4 leading-relaxed text-muted-foreground">
-                Clinexus started when our founders — a software engineer and a practicing physician — spent a weekend watching a busy clinic owner juggle 6 different tools just to see one patient. WhatsApp for reminders. Excel for billing. Paper files for records. A notebook for inventory.
+                Clinexus started when our founders, a software engineer and a practicing physician, spent a weekend watching a busy clinic owner juggle 6 different tools just to see one patient. WhatsApp for reminders. Excel for billing. Paper files for records. A notebook for inventory.
               </p>
               <p className="mb-4 leading-relaxed text-muted-foreground">
                 They asked a simple question: <strong className="text-foreground">Why isn't there ONE system that handles everything a clinic needs?</strong> Not a stripped-down hospital system. Not a generic business tool with medical labels slapped on. Something built for how clinics actually run in Nigeria.
               </p>
               <p className="leading-relaxed text-muted-foreground">
-                Today, over 500 clinics run on Clinexus — cutting admin work by 60%, cutting no-shows by 40%, and getting hours of their week back that used to disappear into paperwork.
+                Today, over 500 clinics run on Clinexus, cutting admin work by 60%, cutting no-shows by 40%, and getting hours of their week back that used to disappear into paperwork.
               </p>
             </motion.div>
 
@@ -114,7 +114,7 @@ const About = () => {
                 </ul>
                 <div className="mt-8 border-t border-border pt-6">
                   <a href={APP_URL}>
-                    <Button className="gap-2 rounded-xl bg-gradient-to-r from-primary to-[hsl(var(--medical-teal))] text-primary-foreground shadow hover:opacity-90">
+                    <Button className="gap-2 rounded-xl bg-primary text-primary-foreground shadow hover:opacity-90">
                       See How It Works <ArrowRight className="h-4 w-4" />
                     </Button>
                   </a>
@@ -139,7 +139,7 @@ const About = () => {
                 transition={{ delay: i * 0.1 }}
                 className="text-center"
               >
-                <div className="bg-gradient-to-r from-[hsl(var(--primary))] to-[hsl(var(--medical-teal))] bg-clip-text text-5xl font-extrabold text-transparent">
+                <div className="bg-primary bg-clip-text text-5xl font-extrabold text-transparent">
                   {stat.value}
                 </div>
                 <div className="mt-2 text-sm font-medium text-white/50">{stat.label}</div>
@@ -151,7 +151,7 @@ const About = () => {
 
       {/* Mission / Vision / Commitment */}
       <section className="relative site-section-tint overflow-hidden py-24">
-        <div className="pointer-events-none absolute inset-0 bg-gradient-to-br from-secondary/40 via-background to-muted/30" />
+        <div className="pointer-events-none absolute inset-0 bg-background" />
         <div className="container relative z-10">
           <motion.div initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} viewport={{ once: true }} className="mb-14 text-center">
             <span className="mb-3 inline-block text-sm font-semibold uppercase tracking-widest text-primary">What Drives Us</span>
@@ -167,7 +167,7 @@ const About = () => {
                 transition={{ delay: i * 0.1 }}
                 className="relative overflow-hidden rounded-2xl border border-border/50 bg-card p-8 shadow-sm transition-all hover:-translate-y-1 hover:shadow-lg hover:shadow-primary/5"
               >
-                <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-xl bg-gradient-to-br from-primary/15 to-primary/5">
+                <div className="mb-5 flex h-12 w-12 items-center justify-center rounded-xl bg-primary/10">
                   <p.icon className="h-6 w-6 text-primary" />
                 </div>
                 <h3 className="mb-3 text-lg font-bold text-foreground">{p.title}</h3>
@@ -196,7 +196,7 @@ const About = () => {
                 transition={{ delay: i * 0.1 }}
                 className="rounded-2xl border border-white/10 bg-white/5 p-6 backdrop-blur-sm transition-all hover:-translate-y-1 hover:border-white/20 hover:bg-white/8"
               >
-                <div className="mb-4 flex h-11 w-11 items-center justify-center rounded-xl bg-gradient-to-br from-[hsl(var(--primary))]/20 to-[hsl(var(--medical-teal))]/10">
+                <div className="mb-4 flex h-11 w-11 items-center justify-center rounded-xl bg-muted/20">
                   <v.icon className="h-5 w-5 text-[hsl(var(--medical-teal))]" />
                 </div>
                 <h4 className="mb-2 font-semibold text-white">{v.title}</h4>
@@ -209,7 +209,7 @@ const About = () => {
 
       {/* CTA */}
       <section className="relative site-section-light overflow-hidden py-24">
-        <div className="pointer-events-none absolute inset-0 bg-gradient-to-br from-secondary/40 via-background to-muted/30" />
+        <div className="pointer-events-none absolute inset-0 bg-background" />
         <div className="container relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 20 }}
@@ -224,12 +224,12 @@ const About = () => {
             </p>
             <div className="flex flex-wrap items-center justify-center gap-4">
               <a href={APP_URL}>
-                <Button size="lg" className="gap-2 rounded-full bg-gradient-to-r from-primary to-[hsl(var(--medical-teal))] px-8 text-primary-foreground shadow-md hover:opacity-90">
+                <Button size="lg" className="gap-2 rounded-md bg-primary px-8 text-primary-foreground shadow-md hover:opacity-90">
                   Get Started <ArrowRight className="h-4 w-4" />
                 </Button>
               </a>
               <a href={APP_URL}>
-                <Button size="lg" variant="outline" className="rounded-full px-8">
+                <Button size="lg" variant="outline" className="rounded-md px-8">
                   Book a Demo
                 </Button>
               </a>

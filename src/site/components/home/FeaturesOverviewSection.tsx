@@ -7,12 +7,12 @@ const outcomes = [
   {
     icon: Users,
     title: "Never Lose a Patient's History Again",
-    description: "Every visit, prescription, and treatment in one place — accessible in seconds, not buried in a filing cabinet.",
+    description: "Every visit, prescription, and treatment in one place, accessible in seconds, not buried in a filing cabinet.",
   },
   {
     icon: Calendar,
     title: "Cut No-Shows by Up to 40%",
-    description: "Automated reminders go out so patients remember to show up — and your chairs stay filled.",
+    description: "Automated reminders go out so patients remember to show up, and your chairs stay filled.",
   },
   {
     icon: Stethoscope,
@@ -22,7 +22,7 @@ const outcomes = [
   {
     icon: FlaskConical,
     title: "Stop Losing Track of Lab Work",
-    description: "Know exactly where every lab case is, who's working on it, and when it's due — no more chasing technicians.",
+    description: "Know exactly where every lab case is, who's working on it, and when it's due, no more chasing technicians.",
   },
   {
     icon: Receipt,
@@ -37,19 +37,19 @@ const outcomes = [
   {
     icon: BarChart3,
     title: "Finally Know if Your Clinic is Profitable",
-    description: "See your real revenue, your real costs, and exactly which services make you the most money — all at a glance.",
+    description: "See your real revenue, your real costs, and exactly which services make you the most money, all at a glance.",
   },
   {
     icon: Shield,
     title: "Sleep Well Knowing Your Data is Safe",
-    description: "Every staff member sees only what they should. Your financials, your records, your business — protected.",
+    description: "Every staff member sees only what they should. Your financials, your records, your business, protected.",
   },
 ];
 
 const FeaturesOverviewSection = () => {
   return (
     <section className="relative overflow-hidden bg-[hsl(var(--medical-blue-dark))] py-24 md:py-32">
-      <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-white/[0.02] via-transparent to-white/[0.02]" />
+      <div className="pointer-events-none absolute inset-0 " />
       <div className="pointer-events-none absolute left-1/2 top-0 h-[600px] w-[600px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-[hsl(var(--primary))]/10 blur-3xl" />
 
       <div className="container relative z-10">

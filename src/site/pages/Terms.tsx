@@ -6,7 +6,7 @@ const sections = [
   { title: "1. Acceptance of Terms", content: "By accessing or using Clinexus, you agree to be bound by these Terms of Service. If you do not agree, please do not use the service. These terms apply to all users, including clinic administrators, staff, and any authorized personnel." },
   { title: "2. Description of Service", content: "Clinexus is a cloud-based clinic management platform that provides tools for patient management, appointment scheduling, billing & invoicing, inventory management, analytics, and more. The service is provided on a subscription basis with various plan tiers." },
   { title: "3. Account Responsibilities", content: "You are responsible for maintaining the security of your account credentials and for all activities that occur under your account. You must notify us immediately of any unauthorized access. As the account owner, you are responsible for managing staff access levels and ensuring appropriate permissions." },
-  { title: "4. Data Ownership", content: "You retain full ownership of all data you enter into Clinexus — including patient records, financial data, and clinical documents. We do not claim ownership of your clinic or patient data. You grant us a limited license to process this data solely to provide the service." },
+  { title: "4. Data Ownership", content: "You retain full ownership of all data you enter into Clinexus, including patient records, financial data, and clinical documents. We do not claim ownership of your clinic or patient data. You grant us a limited license to process this data solely to provide the service." },
   { title: "5. Acceptable Use", content: "You agree not to use Clinexus for any unlawful purpose, to attempt to gain unauthorized access to other accounts or systems, to interfere with the service's operation, or to use the platform to store data unrelated to legitimate healthcare operations." },
   { title: "6. Payment Terms", content: "Paid plans are billed monthly or annually in Nigerian Naira (₦). Prices may change with 30 days' written notice. Annual plans that have been paid cannot be refunded for the remaining term, but monthly plans can be cancelled at any time. All fees are exclusive of applicable taxes." },
   { title: "7. Service Level", content: "We target 99.9% uptime for all paid plans. Scheduled maintenance windows will be communicated at least 48 hours in advance. In the event of unscheduled downtime exceeding our SLA, Enterprise plan customers may be eligible for service credits." },
@@ -22,7 +22,7 @@ const Terms = () => {
     <Layout>
       {/* Hero */}
       <section className="relative overflow-hidden bg-[hsl(var(--medical-blue-dark))] py-20 md:py-28">
-        <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-transparent to-[hsl(var(--medical-blue-dark))]" />
+        <div className="pointer-events-none absolute inset-0 " />
         <div className="container relative z-10">
           <motion.div
             initial={{ opacity: 0, y: 30 }}
@@ -41,7 +41,7 @@ const Terms = () => {
 
       {/* Content */}
       <section className="relative site-section-light overflow-hidden py-20">
-        <div className="pointer-events-none absolute inset-0 bg-gradient-to-br from-secondary/40 via-background to-muted/30" />
+        <div className="pointer-events-none absolute inset-0 bg-background" />
         <div className="container relative z-10">
           <div className="mx-auto max-w-3xl space-y-10">
             <p className="rounded-2xl border border-border/50 bg-card/80 p-6 text-sm leading-relaxed text-muted-foreground backdrop-blur-sm">

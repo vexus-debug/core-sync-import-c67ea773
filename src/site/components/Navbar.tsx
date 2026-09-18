@@ -14,14 +14,14 @@ const navLinks = [
 
 const isDark = (pathname: string) =>
   [
-    "/",
-    "/about",
-    "/contact",
-    "/industries",
-    "/privacy",
-    "/terms",
-    "/industries/eye-clinics",
-    "/industries/eye-clinics/features",
+"/",
+"/about",
+"/contact",
+"/industries",
+"/privacy",
+"/terms",
+"/industries/eye-clinics",
+"/industries/eye-clinics/features",
   ].includes(pathname);
 
 const Navbar = () => {
@@ -96,7 +96,7 @@ const Navbar = () => {
           <a href="/signup">
             <Button
               size="sm"
-              className="gap-1.5 rounded-full bg-gradient-to-r from-[hsl(var(--primary))] to-[hsl(var(--medical-teal))] px-5 text-white shadow-md hover:opacity-90"
+              className="gap-1.5 rounded-full bg-primary px-5 text-white shadow-md hover:opacity-90"
             >
               Get Started <ArrowRight className="h-3.5 w-3.5" />
             </Button>
@@ -144,10 +144,10 @@ const Navbar = () => {
               <div className="border-t border-border px-4 py-4">
                 <div className="flex flex-col gap-2">
                   <a href="/login" onClick={() => setOpen(false)}>
-                    <Button variant="outline" className="w-full rounded-full">Log In</Button>
+                    <Button variant="outline" className="w-full rounded-md">Log In</Button>
                   </a>
                   <a href="/signup" onClick={() => setOpen(false)}>
-                    <Button className="w-full gap-2 rounded-full bg-gradient-to-r from-[hsl(var(--primary))] to-[hsl(var(--medical-teal))] text-white hover:opacity-90">
+                    <Button className="w-full gap-2 rounded-md bg-primary text-white hover:opacity-90">
                       Get Started <ArrowRight className="h-4 w-4" />
                     </Button>
                   </a>

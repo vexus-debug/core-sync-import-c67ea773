@@ -64,11 +64,11 @@ const plans = [
 ];
 
 const included = [
-  "Full clinical exam and refraction records",
-  "Diagnostic imaging uploads with automatic trend charts",
-  "Contact lens fitting and optical order tracking",
-  "Surgery booking, biometry/IOL, consent tracking",
-  "Appointments, invoicing, inventory, staff scheduling, analytics",
+"Full clinical exam and refraction records",
+"Diagnostic imaging uploads with automatic trend charts",
+"Contact lens fitting and optical order tracking",
+"Surgery booking, biometry/IOL, consent tracking",
+"Appointments, invoicing, inventory, staff scheduling, analytics",
 ];
 
 const EyeClinics = () => {
@@ -105,7 +105,7 @@ const EyeClinics = () => {
               className="mx-auto mb-6 max-w-2xl text-lg leading-relaxed text-muted-foreground"
             >
               A missing IOP trend, a forgotten contact lens aftercare check, an optical order tracked in a
-              WhatsApp thread — none of it is dramatic on its own. Together, it's what keeps a well-run clinic
+              WhatsApp thread, none of it is dramatic on its own. Together, it's what keeps a well-run clinic
               from feeling like one.
             </motion.p>
 
@@ -116,7 +116,7 @@ const EyeClinics = () => {
               transition={{ delay: 0.2 }}
               className="mx-auto mb-10 max-w-2xl leading-relaxed text-muted-foreground/80"
             >
-              Clinexus is a clinic management system built specifically around eye care — exams, refraction,
+              Clinexus is a clinic management system built specifically around eye care, exams, refraction,
               diagnostics, dispensing, surgery and the everyday admin, in one place.
             </motion.p>
 
@@ -131,14 +131,14 @@ const EyeClinics = () => {
                 href={WHATSAPP}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-full bg-primary px-10 py-4 font-bold text-primary-foreground transition-colors hover:bg-foreground"
+                className="inline-flex items-center gap-2 rounded-md bg-primary px-10 py-4 font-bold text-primary-foreground transition-colors hover:bg-foreground"
               >
                 <MessageCircle className="h-5 w-5" />
                 Talk to us on WhatsApp
               </a>
               <Link
                 to="/industries/eye-clinics/features"
-                className="inline-flex items-center gap-2 rounded-full border border-primary px-10 py-4 font-bold text-primary transition-colors hover:bg-primary/10"
+                className="inline-flex items-center gap-2 rounded-md border border-primary px-10 py-4 font-bold text-primary transition-colors hover:bg-primary/10"
               >
                 See the full feature list
                 <ArrowRight className="h-4 w-4" />
@@ -152,7 +152,7 @@ const EyeClinics = () => {
               variants={reveal}
               className="mx-auto mt-12 max-w-3xl border-t border-primary/20 pt-8 text-sm leading-relaxed text-muted-foreground"
             >
-              Clinexus is built working directly alongside dental and eye clinics — the eye clinic workflow
+              Clinexus is built working directly alongside dental and eye clinics, the eye clinic workflow
               below was shaped with practitioners who deal with these exact records every day, not designed in
               the abstract and hoped to fit.
             </motion.p>
@@ -169,7 +169,7 @@ const EyeClinics = () => {
             <Screenshot
               src={shotDashboard}
               alt="Clinexus dashboard showing revenue, patient stats and today's appointments for a demo eye clinic"
-              caption="The clinic dashboard — revenue, patients and today's schedule at a glance"
+              caption="The clinic dashboard, revenue, patients and today's schedule at a glance"
             />
           </motion.div>
 
@@ -181,7 +181,7 @@ const EyeClinics = () => {
             variants={reveal}
             className="mb-10 text-2xl font-bold text-foreground md:text-3xl"
           >
-            What's actually in it —{" "}
+            What's actually in it -{" "}
             <span className="text-muted-foreground">what it does, specifically</span>
           </motion.h2>
 
@@ -206,13 +206,13 @@ const EyeClinics = () => {
                   className="mt-5"
                 />
                 <p className="mb-4 font-medium text-primary">
-                  Stop reconstructing a patient's history from memory or a paper folder — it's all on one
+                  Stop reconstructing a patient's history from memory or a paper folder, it's all on one
                   timeline, trending automatically.
                 </p>
                 <p className="max-w-2xl leading-relaxed text-muted-foreground">
                   Captures visual acuity (aided/unaided/pinhole), IOP with tonometry method, pupils, anterior
-                  segment, fundus, C/D ratio and dilation flag. Full refraction per eye — sphere, cylinder,
-                  axis, add, prism, PD — across distance, reading, bifocal, progressive, computer and contact
+                  segment, fundus, C/D ratio and dilation flag. Full refraction per eye, sphere, cylinder,
+                  axis, add, prism, PD, across distance, reading, bifocal, progressive, computer and contact
                   lens prescription types, with issue and expiry dates tracked.
                 </p>
               </div>
@@ -249,7 +249,7 @@ const EyeClinics = () => {
                 className="mt-5"
               />
               <p className="mb-4 font-medium opacity-80">
-                Catch slow changes — like early glaucoma progression — before they become obvious in a single
+                Catch slow changes, like early glaucoma progression, before they become obvious in a single
                 visit.
               </p>
               <p className="text-sm leading-relaxed opacity-70">
@@ -355,7 +355,7 @@ const EyeClinics = () => {
             variants={reveal}
             className="mb-4 text-2xl font-bold text-foreground md:text-3xl"
           >
-            See it in action —{" "}
+            See it in action -{" "}
             <span className="text-muted-foreground">real screens from a demo eye clinic</span>
           </motion.h2>
           <motion.p
@@ -365,7 +365,7 @@ const EyeClinics = () => {
             variants={reveal}
             className="mb-10 max-w-2xl text-muted-foreground"
           >
-            Every screen below is from a working demo clinic with real patient flow — not mockups.
+            Every screen below is from a working demo clinic with real patient flow, not mockups.
           </motion.p>
 
           <div className="mb-24 grid gap-10 md:grid-cols-2">
@@ -373,28 +373,28 @@ const EyeClinics = () => {
               <Screenshot
                 src={shotOverview}
                 alt="Eye care overview with raised-IOP alerts and glaucoma watch lists"
-                caption="Eye care overview — raised-IOP alerts and glaucoma watch lists surface automatically"
+                caption="Eye care overview, raised-IOP alerts and glaucoma watch lists surface automatically"
               />
             </motion.div>
             <motion.div initial="hidden" whileInView="show" viewport={viewport} variants={slide("right")}>
               <Screenshot
                 src={shotCharts}
                 alt="Trend charts for eye pressure, OCT and visual field results"
-                caption="Trend charts — IOP, OCT and visual field results plotted per eye over time"
+                caption="Trend charts, IOP, OCT and visual field results plotted per eye over time"
               />
             </motion.div>
             <motion.div initial="hidden" whileInView="show" viewport={viewport} variants={slide("left")}>
               <Screenshot
                 src={shotExams}
                 alt="Clinical exam records with vision and pressure readings"
-                caption="Exam records — visual acuity, IOP and refraction on one timeline"
+                caption="Exam records, visual acuity, IOP and refraction on one timeline"
               />
             </motion.div>
             <motion.div initial="hidden" whileInView="show" viewport={viewport} variants={slide("right")}>
               <Screenshot
                 src={shotPrescriptions}
                 alt="Optical prescriptions with full lens details per eye"
-                caption="Prescriptions — sphere, cylinder, axis, add and PD per eye, with expiry tracked"
+                caption="Prescriptions, sphere, cylinder, axis, add and PD per eye, with expiry tracked"
               />
             </motion.div>
             <motion.div
@@ -407,7 +407,7 @@ const EyeClinics = () => {
               <Screenshot
                 src={shotOrders}
                 alt="Optical orders tracking frames and lenses through the lab"
-                caption="Optical orders — frames and lenses tracked from ordered to collected"
+                caption="Optical orders, frames and lenses tracked from ordered to collected"
               />
             </motion.div>
           </div>
@@ -428,7 +428,7 @@ const EyeClinics = () => {
               One plan, everything above included
             </h2>
             <p className="mx-auto mb-12 max-w-2xl text-muted-foreground">
-              No tier that holds back diagnostics or surgery tracking until you pay more — clinical,
+              No tier that holds back diagnostics or surgery tracking until you pay more, clinical,
               dispensing, diagnostics, surgery and admin are all included from day one. Choose the billing
               period that suits your clinic.
             </p>
@@ -498,28 +498,28 @@ const EyeClinics = () => {
             </h2>
             <p className="mx-auto mb-10 max-w-2xl leading-relaxed text-muted-foreground">
               Tell us how your clinic currently handles exams, dispensing and surgery bookings, and we'll show
-              you exactly how Clinexus fits in — using your workflow, not a generic demo.
+              you exactly how Clinexus fits in, using your workflow, not a generic demo.
             </p>
             <div className="inline-flex flex-col gap-4 md:flex-row">
               <a
                 href={WHATSAPP}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 rounded-full bg-primary px-10 py-4 font-bold text-primary-foreground transition-colors hover:bg-foreground"
+                className="inline-flex items-center justify-center gap-2 rounded-md bg-primary px-10 py-4 font-bold text-primary-foreground transition-colors hover:bg-foreground"
               >
                 <MessageCircle className="h-5 w-5" />
                 Talk to us on WhatsApp
               </a>
               <Link
                 to="/signup"
-                className="inline-flex items-center justify-center gap-2 rounded-full border border-primary px-10 py-4 font-bold text-primary transition-colors hover:bg-primary/10"
+                className="inline-flex items-center justify-center gap-2 rounded-md border border-primary px-10 py-4 font-bold text-primary transition-colors hover:bg-primary/10"
               >
                 Try demo
                 <ArrowRight className="h-4 w-4" />
               </Link>
             </div>
             <p className="mt-6 text-sm text-muted-foreground/60">
-              Clinexus — clinic management built for how you actually work.
+              Clinexus, clinic management built for how you actually work.
             </p>
           </motion.section>
         </div>

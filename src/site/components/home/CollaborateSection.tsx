@@ -4,7 +4,7 @@ import { Lock, CheckCircle2, Users, Activity } from "lucide-react";
 const CollaborateSection = () => {
   return (
     <section className="relative overflow-hidden bg-[hsl(var(--medical-blue-dark))] py-20 md:py-28">
-      <div className="pointer-events-none absolute inset-0 bg-gradient-to-br from-[hsl(var(--medical-blue-dark))] via-[hsl(var(--medical-blue-dark))]/95 to-[hsl(var(--primary))]/10" />
+      <div className="pointer-events-none absolute inset-0 bg-muted/20" />
       <div className="pointer-events-none absolute right-0 top-0 h-[400px] w-[400px] translate-x-1/3 -translate-y-1/3 rounded-full bg-primary/10 blur-3xl" />
       <div className="container relative z-10">
         <div className="grid items-center gap-12 lg:grid-cols-2 lg:gap-20">
@@ -18,7 +18,7 @@ const CollaborateSection = () => {
           >
             <div className="rounded-2xl border border-white/10 bg-white/5 p-6 shadow-xl shadow-black/20">
               <div className="mb-5 flex items-center gap-4">
-                <div className="h-16 w-16 rounded-full bg-gradient-to-br from-primary/30 to-primary/10 ring-4 ring-white/10" />
+                <div className="h-16 w-16 rounded-full bg-muted/20 ring-4 ring-white/10" />
                 <div>
                   <div className="h-3 w-28 rounded-full bg-white/20" />
                   <div className="mt-2 h-2.5 w-20 rounded-full bg-white/10" />
@@ -30,7 +30,7 @@ const CollaborateSection = () => {
                   { label: "Dr. Adeyemi completed dental chart", time: "2 min ago" },
                   { label: "Lab case #412 marked as ready", time: "5 min ago" },
                   { label: "Receptionist booked walk-in patient", time: "8 min ago" },
-                  { label: "Invoice #1084 — payment received", time: "15 min ago" },
+                  { label: "Invoice #1084, payment received", time: "15 min ago" },
                 ].map((item) => (
                   <div key={item.label} className="flex items-center justify-between rounded-lg border border-white/10 bg-white/5 px-4 py-3">
                     <div className="flex items-center gap-3">
@@ -91,14 +91,14 @@ const CollaborateSection = () => {
               A Team You Can Trust, Without Watching Their Every Move
             </h2>
             <p className="mb-6 text-lg leading-relaxed text-white/60">
-              Dentists chart teeth. Receptionists manage bookings. Lab techs handle cases. Accountants track the money. Everyone sees only what they need — nothing more, nothing they shouldn't.
+              Dentists chart teeth. Receptionists manage bookings. Lab techs handle cases. Accountants track the money. Everyone sees only what they need, nothing more, nothing they shouldn't.
             </p>
             <ul className="space-y-3">
               {[
-                "9 ready-made roles: Owner, Admin, Dentist, Hygienist, and more",
-                "Your data locked down, record by record",
-                "Every action logged, so nothing goes unaccounted for",
-                "Talk to your team without a single WhatsApp group",
+"9 ready-made roles: Owner, Admin, Dentist, Hygienist, and more",
+"Your data locked down, record by record",
+"Every action logged, so nothing goes unaccounted for",
+"Talk to your team without a single WhatsApp group",
               ].map((item) => (
                 <li key={item} className="flex items-center gap-3 text-white">
                   <CheckCircle2 className="h-5 w-5 shrink-0 text-[hsl(var(--medical-teal))]" />
