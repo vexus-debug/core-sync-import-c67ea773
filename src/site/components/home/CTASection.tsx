@@ -25,7 +25,7 @@ const CTASection = () => {
           <div className="flex flex-wrap items-center justify-center gap-4">
             <a href="/signup">
               <Button size="lg" className="gap-2 rounded-full bg-gradient-to-r from-[hsl(var(--primary))] to-[hsl(var(--medical-teal))] px-8 text-white shadow-lg hover:opacity-90">
-                Start Your First Month <ArrowRight className="h-4 w-4" />
+                Get Started <ArrowRight className="h-4 w-4" />
               </Button>
             </a>
             <a href="/signup">
@@ -38,7 +38,6 @@ const CTASection = () => {
               </Button>
             </a>
           </div>
-          <p className="mt-4 text-sm text-muted-foreground">First month: full access. No commitment.</p>
         </motion.div>
       </div>
     </section>
