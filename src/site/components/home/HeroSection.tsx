@@ -71,10 +71,9 @@ const HeroSection = () => {
               size="lg"
               className="gap-2 rounded-full bg-gradient-to-r from-[hsl(var(--primary))] to-[hsl(var(--medical-teal))] px-10 text-white shadow-lg shadow-[hsl(var(--primary))]/30 hover:opacity-90"
             >
-              Start Your First Month <ArrowRight className="h-4 w-4" />
+              Get Started <ArrowRight className="h-4 w-4" />
             </Button>
           </a>
-          <p className="mt-3 text-xs text-white/30">First month: full access. From Month 2, choose your plan.</p>
         </motion.div>
 
         {/* Dashboard mockup */}

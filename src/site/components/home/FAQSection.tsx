@@ -17,11 +17,7 @@ const faqs = [
   },
   {
     q: "How quickly will I see a difference?",
-    a: "Most clinics see fewer no-shows within the first week (automated reminders kick in immediately) and cleaner billing from day one. The full impact — better cash flow, staff accountability, real profitability data — compounds over your first month.",
-  },
-  {
-    q: "What does the first month actually get me?",
-    a: "Full access to everything in Clinexus — every module, every feature, across every plan. You run your entire clinic at full capacity for your first month. From Month 2, you choose the plan that fits your size and needs.",
+    a: "Most clinics see fewer no-shows within the first week (automated reminders kick in immediately) and cleaner billing from day one. The full impact — better cash flow, staff accountability, real profitability data — compounds quickly as your team settles in.",
   },
   {
     q: "Can my patients book appointments themselves?",
