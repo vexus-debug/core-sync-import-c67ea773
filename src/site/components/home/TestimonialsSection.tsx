@@ -17,7 +17,7 @@ const testimonials = [
     rating: 5,
   },
   {
-    quote: "My revenue went up 23% in three months — not because I saw more patients, but because I stopped letting money fall through the cracks.",
+    quote: "My revenue went up 23% in three months, not because I saw more patients, but because I stopped letting money fall through the cracks.",
     name: "Dr. Chinedu Obi",
     role: "Managing Partner",
     clinic: "Ivory Gate Dental Group",
@@ -28,7 +28,7 @@ const testimonials = [
 const TestimonialsSection = () => {
   return (
     <section className="relative site-section-light overflow-hidden py-24 md:py-32">
-      <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-secondary/20 via-background to-muted/20" />
+      <div className="pointer-events-none absolute inset-0 bg-background" />
       <div className="pointer-events-none absolute left-0 top-1/2 h-[400px] w-[400px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-primary/5 blur-3xl" />
 
       <div className="container relative z-10">
@@ -46,7 +46,7 @@ const TestimonialsSection = () => {
             Clinic Owners Who Got Their Lives Back
           </h2>
           <p className="text-muted-foreground">
-            Not feature reviews — real clinic owners whose businesses, and evenings, actually changed.
+            Not feature reviews, real clinic owners whose businesses, and evenings, actually changed.
           </p>
         </motion.div>
 
@@ -71,7 +71,7 @@ const TestimonialsSection = () => {
               <p className="mb-6 text-sm leading-relaxed text-muted-foreground">"{t.quote}"</p>
 
               <div className="flex items-center gap-3">
-                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-gradient-to-br from-primary/20 to-primary/10 text-sm font-bold text-primary">
+                <div className="flex h-10 w-10 items-center justify-center rounded-full bg-primary/15 text-sm font-bold text-primary">
                   {t.name.split(" ").map(n => n[0]).join("")}
                 </div>
                 <div>

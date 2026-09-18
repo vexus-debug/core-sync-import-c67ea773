@@ -31,7 +31,7 @@ const Contact = () => {
             <div key={i} className="absolute rounded-full border border-white/[0.05]" style={{ width: size, height: size }} />
           ))}
         </div>
-        <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-transparent to-[hsl(var(--medical-blue-dark))]" />
+        <div className="pointer-events-none absolute inset-0 " />
 
         <div className="container relative z-10">
           <motion.div
@@ -45,7 +45,7 @@ const Contact = () => {
             </span>
             <h1 className="mb-6 text-4xl font-extrabold leading-[1.1] tracking-tight text-white md:text-5xl">
               Tell Us What's Slowing{" "}
-              <span className="bg-gradient-to-r from-[hsl(var(--primary))] to-[hsl(var(--medical-teal))] bg-clip-text text-transparent">
+              <span className="bg-primary ">
                 Your Clinic Down
               </span>
             </h1>
@@ -58,7 +58,7 @@ const Contact = () => {
 
       {/* Form + Info */}
       <section className="relative site-section-light overflow-hidden py-24">
-        <div className="pointer-events-none absolute inset-0 bg-gradient-to-br from-secondary/40 via-background to-muted/30" />
+        <div className="pointer-events-none absolute inset-0 bg-background" />
         <div className="pointer-events-none absolute -right-32 top-1/4 h-[400px] w-[400px] rounded-full bg-primary/5 blur-3xl" />
 
         <div className="container relative z-10">
@@ -87,7 +87,7 @@ const Contact = () => {
                 <Label htmlFor="message">Message *</Label>
                 <Textarea id="message" value={form.message} onChange={(e) => setForm({ ...form, message: e.target.value })} placeholder="Tell us what's slowing your clinic down, or request a personalized demo..." rows={5} />
               </div>
-              <Button type="submit" className="w-full gap-2 rounded-full bg-gradient-to-r from-[hsl(var(--primary))] to-[hsl(var(--medical-teal))] text-white shadow-md hover:opacity-90">
+              <Button type="submit" className="w-full gap-2 rounded-md bg-primary text-white shadow-md hover:opacity-90">
                 Send Message <ArrowRight className="h-4 w-4" />
               </Button>
             </motion.form>
@@ -105,10 +105,10 @@ const Contact = () => {
                     { icon: Mail, label: "support@clinexus.com.ng", href: "mailto:support@clinexus.com.ng" },
                     { icon: Phone, label: "0901 7758 165", href: "https://wa.me/2349017758165" },
                     { icon: MapPin, label: "Ikeja, Lagos, Nigeria" },
-                    { icon: Clock, label: "Mon – Fri, 8am – 6pm WAT" },
+                    { icon: Clock, label: "Mon, Fri, 8am, 6pm WAT" },
                   ].map((item) => (
                     <div key={item.label} className="flex items-center gap-3 text-muted-foreground">
-                      <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-primary/15 to-primary/5">
+                      <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-primary/10">
                         <item.icon className="h-5 w-5 text-primary" />
                       </div>
                       {"href" in item && item.href ? (
@@ -121,17 +121,17 @@ const Contact = () => {
                 </div>
               </div>
 
-              <div className="rounded-2xl border border-border/50 bg-gradient-to-br from-primary/5 to-muted/50 p-6">
-                <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-primary/15 to-primary/5">
+              <div className="rounded-2xl border border-border/50 bg-muted/20 p-6">
+                <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-xl bg-primary/10">
                   <MessageSquare className="h-5 w-5 text-primary" />
                 </div>
                 <h4 className="mb-2 font-semibold text-foreground">See It Running Before You Commit</h4>
                 <p className="text-sm leading-relaxed text-muted-foreground">
-                  Want to see Clinexus set up for your specific specialty? Mention "demo" in your message and we'll book a personalized 30-minute walkthrough — no strings attached.
+                  Want to see Clinexus set up for your specific specialty? Mention "demo" in your message and we'll book a personalized 30-minute walkthrough, no strings attached.
                 </p>
               </div>
 
-              <div className="rounded-2xl border border-border/50 bg-gradient-to-br from-muted/30 to-card/80 p-6">
+              <div className="rounded-2xl border border-border/50 bg-muted/20 p-6">
                 <h4 className="mb-2 font-semibold text-foreground">Already a Customer?</h4>
                 <p className="text-sm leading-relaxed text-muted-foreground">
                   Need help fast? Log into your dashboard and use the in-app support chat. Average response time: under 2 hours.

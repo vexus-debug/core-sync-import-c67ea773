@@ -11,7 +11,7 @@ const results = [
     icon: Clock,
     label: "Fewer Empty Chairs",
     value: "40%",
-    sub: "Fewer no-shows — patients get reminded automatically so they actually show up",
+    sub: "Fewer no-shows, patients get reminded automatically so they actually show up",
     color: "from-[hsl(var(--primary))] to-[hsl(var(--medical-teal))]",
     image: appointmentsScreenshot,
     imageAlt: "Eye clinic appointments and patient schedule in Clinexus",
@@ -29,7 +29,7 @@ const results = [
     icon: ShieldCheck,
     label: "A Team That Stays in Their Lane",
     value: "9 Roles",
-    sub: "Every staff member sees only what they need — no more, no less",
+    sub: "Every staff member sees only what they need, no more, no less",
     color: "from-[hsl(var(--medical-teal))] to-[hsl(var(--primary))]",
     image: overviewScreenshot,
     imageAlt: "Clinexus eye clinic overview with role-specific operational information",
@@ -41,7 +41,7 @@ const SolutionSection = () => {
 
   return (
     <section className="relative site-section-light overflow-hidden py-24 md:py-32">
-      <div className="pointer-events-none absolute inset-0 bg-gradient-to-br from-secondary/40 via-background to-muted/30" />
+      <div className="pointer-events-none absolute inset-0 bg-background" />
       <div className="pointer-events-none absolute -right-20 top-1/3 h-[500px] w-[500px] rounded-full bg-primary/5 blur-3xl" />
       <div className="pointer-events-none absolute -left-20 bottom-1/4 h-[400px] w-[400px] rounded-full bg-primary/5 blur-3xl" />
 
@@ -58,15 +58,15 @@ const SolutionSection = () => {
             </span>
             <h2 className="mb-5 text-3xl font-bold tracking-tight text-foreground md:text-4xl lg:text-[2.75rem] lg:leading-[1.15]">
               You Didn't Go to Medical School{" "}
-              <span className="bg-gradient-to-r from-primary to-primary/70 bg-clip-text text-transparent">
+              <span className="bg-muted/20 ">
                 to Manage Spreadsheets
               </span>
             </h2>
             <p className="mb-8 max-w-md text-base leading-relaxed text-muted-foreground">
-              Most clinic owners lose 3–4 hours a day to admin — chasing payments, fixing records, counting stock, managing staff. That's time stolen from patients, from growth, from your family. Clinexus hands it back.
+              Most clinic owners lose 3–4 hours a day to admin, chasing payments, fixing records, counting stock, managing staff. That's time stolen from patients, from growth, from your family. Clinexus hands it back.
             </p>
             <Link to="/industries/eye-clinics/features">
-              <Button className="gap-2 rounded-full bg-gradient-to-r from-[hsl(var(--primary))] to-[hsl(var(--medical-teal))] px-8 text-white shadow-md hover:opacity-90">
+              <Button className="gap-2 rounded-md bg-primary px-8 text-white shadow-md hover:opacity-90">
                 See How We Do It <ArrowRight className="h-4 w-4" />
               </Button>
             </Link>
@@ -94,10 +94,10 @@ const SolutionSection = () => {
                     viewport={{ once: true }}
                     transition={{ duration: 0.9, delay: reduceMotion ? 0 : 0.12 + i * 0.14 }}
                   />
-                  <div className="absolute inset-0 bg-gradient-to-t from-background/35 to-transparent" />
+                  <div className="absolute inset-0 bg-muted/20" />
                 </div>
                 <div className="p-5">
-                  <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-br from-primary/10 to-primary/5">
+                  <div className="mb-3 flex h-10 w-10 items-center justify-center rounded-xl bg-muted/20">
                     <result.icon className="h-5 w-5 text-primary" />
                   </div>
                   <div className="mb-1 text-sm text-muted-foreground">{result.label}</div>

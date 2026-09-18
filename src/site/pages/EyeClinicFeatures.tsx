@@ -45,7 +45,7 @@ const eyeModules = [
     icon: Eye,
     name: "Eye Overview",
     benefit: "Start the day already knowing who needs attention.",
-    body: "The eye clinic home screen pulls the day into one view — who's booked, whose pressures are trending the wrong way, which recalls are overdue — so nothing waits for someone to remember it.",
+    body: "The eye clinic home screen pulls the day into one view, who's booked, whose pressures are trending the wrong way, which recalls are overdue, so nothing waits for someone to remember it.",
   },
   {
     icon: ClipboardList,
@@ -57,13 +57,13 @@ const eyeModules = [
     icon: Glasses,
     name: "Optical Prescriptions",
     benefit: "Prescriptions that can't be misread or lost.",
-    body: "Glasses and lens prescriptions are written once, per eye, with issue and expiry dates tracked — so dispensing works from the same numbers the clinician wrote, and expired scripts surface before a patient is turned away.",
+    body: "Glasses and lens prescriptions are written once, per eye, with issue and expiry dates tracked, so dispensing works from the same numbers the clinician wrote, and expired scripts surface before a patient is turned away.",
   },
   {
     icon: Activity,
     name: "Contact Lenses",
     benefit: "Aftercare stops depending on the patient remembering.",
-    body: "Fittings hold the brand, modality and fit assessment, and the aftercare check is scheduled from the fitting itself — which keeps wearers safe and keeps them coming back to you for replacements.",
+    body: "Fittings hold the brand, modality and fit assessment, and the aftercare check is scheduled from the fitting itself, which keeps wearers safe and keeps them coming back to you for replacements.",
   },
   {
     icon: Boxes,
@@ -75,7 +75,7 @@ const eyeModules = [
     icon: LineChart,
     name: "Eye Diagnostics",
     benefit: "Test results that stay attached to the patient story.",
-    body: "OCT, fields, fundus imaging and biometry are logged with their files against findings, so results are evidence you can act on later — not attachments buried in a shared drive.",
+    body: "OCT, fields, fundus imaging and biometry are logged with their files against findings, so results are evidence you can act on later, not attachments buried in a shared drive.",
   },
   {
     icon: FileBarChart,
@@ -87,13 +87,13 @@ const eyeModules = [
     icon: CalendarClock,
     name: "Surgery Bookings",
     benefit: "Nothing about theatre day left to chase.",
-    body: "Procedure, eye side, theatre slot, IOL choice, pre-op checks and consent sit on the same booking — so the list is confirmed from one record and post-op outcomes go back to the same place.",
+    body: "Procedure, eye side, theatre slot, IOL choice, pre-op checks and consent sit on the same booking, so the list is confirmed from one record and post-op outcomes go back to the same place.",
   },
   {
     icon: FileBarChart,
     name: "Eye Reports",
     benefit: "Answers about the clinic, without a spreadsheet night.",
-    body: "Eye-specific reporting shows what you're actually doing — exam volumes, dispensing, surgical throughput — so decisions about staffing or stock are made on numbers, not impressions.",
+    body: "Eye-specific reporting shows what you're actually doing, exam volumes, dispensing, surgical throughput, so decisions about staffing or stock are made on numbers, not impressions.",
   },
 ];
 
@@ -103,10 +103,10 @@ const coreGroups = [
     title: "Patient care & scheduling",
     benefit: "Fewer no-shows, shorter waits, calmer front desk.",
     points: [
-      "Full patient profiles that hold history, files and correspondence in one place",
-      "Appointments, staff schedules and a live waiting list so walk-ins don't derail the day",
-      "Treatments, prescriptions and consent forms captured digitally and signed on the spot",
-      "Treatment materials linked to what was used, so stock and clinical notes agree",
+"Full patient profiles that hold history, files and correspondence in one place",
+"Appointments, staff schedules and a live waiting list so walk-ins don't derail the day",
+"Treatments, prescriptions and consent forms captured digitally and signed on the spot",
+"Treatment materials linked to what was used, so stock and clinical notes agree",
     ],
   },
   {
@@ -114,11 +114,11 @@ const coreGroups = [
     title: "Finance & billing",
     benefit: "Know what you earned, what it cost and what's still owed.",
     points: [
-      "Invoicing and estimates so patients see the price before they commit",
-      "Payment plans for higher-value work like surgery or premium lenses",
-      "Expenses, staff commission payouts and revenue allocation tracked as they happen",
-      "Profitability by service, so you know which parts of the clinic actually pay",
-      "Your own Clinexus subscription managed from inside the clinic",
+"Invoicing and estimates so patients see the price before they commit",
+"Payment plans for higher-value work like surgery or premium lenses",
+"Expenses, staff commission payouts and revenue allocation tracked as they happen",
+"Profitability by service, so you know which parts of the clinic actually pay",
+"Your own Clinexus subscription managed from inside the clinic",
     ],
   },
   {
@@ -126,9 +126,9 @@ const coreGroups = [
     title: "Inventory & supply chain",
     benefit: "Never lose a sale to an empty shelf or a forgotten reorder.",
     points: [
-      "Frames, lenses, drops and consumables tracked with real cost, not guesswork",
-      "Suppliers and purchase orders kept against the items they deliver",
-      "Shop management so the clinic sells product through its own public storefront",
+"Frames, lenses, drops and consumables tracked with real cost, not guesswork",
+"Suppliers and purchase orders kept against the items they deliver",
+"Shop management so the clinic sells product through its own public storefront",
     ],
   },
   {
@@ -136,10 +136,10 @@ const coreGroups = [
     title: "Marketing suite",
     benefit: "Bring back the patients you already earned.",
     points: [
-      "Email and SMS blasts for recalls, promotions and seasonal checks",
-      "Social content and promotions planned in the same system that holds the patient list",
-      "Reviews and referrals turned into a repeatable source of new patients",
-      "Recall and reactivation campaigns for lapsed patients, with analytics on what worked",
+"Email and SMS blasts for recalls, promotions and seasonal checks",
+"Social content and promotions planned in the same system that holds the patient list",
+"Reviews and referrals turned into a repeatable source of new patients",
+"Recall and reactivation campaigns for lapsed patients, with analytics on what worked",
     ],
     note: "Currently behind a maintenance flag while it's finished.",
   },
@@ -148,9 +148,9 @@ const coreGroups = [
     title: "Communication",
     benefit: "Less shouting across the corridor, fewer dropped handovers.",
     points: [
-      "Internal messages between staff kept next to the patient they concern",
-      "Notifications that surface what needs action rather than burying it",
-      "Patient reviews collected and answered in one thread",
+"Internal messages between staff kept next to the patient they concern",
+"Notifications that surface what needs action rather than burying it",
+"Patient reviews collected and answered in one thread",
     ],
   },
   {
@@ -158,30 +158,30 @@ const coreGroups = [
     title: "Reports & admin",
     benefit: "Run the clinic on evidence, and prove what happened.",
     points: [
-      "Reports and advanced analytics across clinical, financial and operational activity",
-      "Staff management, documents and clinic settings in one administrative home",
-      "Audit log showing who did what and when — useful long before anyone disputes it",
-      "Automation for routine steps, plus tutorials so new staff get productive quickly",
+"Reports and advanced analytics across clinical, financial and operational activity",
+"Staff management, documents and clinic settings in one administrative home",
+"Audit log showing who did what and when, useful long before anyone disputes it",
+"Automation for routine steps, plus tutorials so new staff get productive quickly",
     ],
   },
 ];
 
 const publicPoints = [
-  "A public microsite for the clinic at its own address, with an online shop attached",
-  "Patients can look up their results without an account or a phone call to reception",
-  "Everything the public sees is driven by the same records staff already maintain",
+"A public microsite for the clinic at its own address, with an online shop attached",
+"Patients can look up their results without an account or a phone call to reception",
+"Everything the public sees is driven by the same records staff already maintain",
 ];
 
 const roles = [
-  "Owner",
-  "Admin",
-  "Doctor / optometrist",
-  "Receptionist",
-  "Hygienist",
-  "Assistant",
-  "Accountant",
-  "Lab technician",
-  "Lab assistant",
+"Owner",
+"Admin",
+"Doctor / optometrist",
+"Receptionist",
+"Hygienist",
+"Assistant",
+"Accountant",
+"Lab technician",
+"Lab assistant",
 ];
 
 const EyeClinicFeatures = () => {
@@ -197,7 +197,7 @@ const EyeClinicFeatures = () => {
               transition={{ duration: 0.5 }}
               className="mb-5 text-xs font-semibold uppercase tracking-[0.25em] text-primary"
             >
-              Clinexus for Eye Clinics — Features
+              Clinexus for Eye Clinics, Features
             </motion.p>
 
             <motion.h1
@@ -217,7 +217,7 @@ const EyeClinicFeatures = () => {
               transition={{ delay: 0.12 }}
               className="mx-auto mb-10 max-w-2xl text-lg leading-relaxed text-muted-foreground"
             >
-              Clinexus is a multi-clinic platform — dental, eye care and diagnostic centres. An eye clinic
+              Clinexus is a multi-clinic platform, dental, eye care and diagnostic centres. An eye clinic
               gets its own workspace with a sidebar built around eye care, plus every part of running a
               practice underneath it. Here's what that gives you, day to day.
             </motion.p>
@@ -233,14 +233,14 @@ const EyeClinicFeatures = () => {
                 href={WHATSAPP}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-full bg-primary px-10 py-4 font-bold text-primary-foreground transition-colors hover:bg-foreground"
+                className="inline-flex items-center gap-2 rounded-md bg-primary px-10 py-4 font-bold text-primary-foreground transition-colors hover:bg-foreground"
               >
                 <MessageCircle className="h-5 w-5" />
                 Talk to us on WhatsApp
               </a>
               <Link
                 to="/industries/eye-clinics"
-                className="inline-flex items-center gap-2 rounded-full border border-primary px-10 py-4 font-bold text-primary transition-colors hover:bg-primary/10"
+                className="inline-flex items-center gap-2 rounded-md border border-primary px-10 py-4 font-bold text-primary transition-colors hover:bg-primary/10"
               >
                 See the eye clinic overview
                 <ArrowRight className="h-4 w-4" />
@@ -256,7 +256,7 @@ const EyeClinicFeatures = () => {
             variants={reveal}
             className="mb-4 text-2xl font-bold text-foreground md:text-3xl"
           >
-            The eye care modules —{" "}
+            The eye care modules -{" "}
             <span className="text-muted-foreground">what they save you from</span>
           </motion.h2>
           <motion.p
@@ -267,7 +267,7 @@ const EyeClinicFeatures = () => {
             className="mb-10 max-w-2xl text-muted-foreground"
           >
             These are the screens in your sidebar. Each one exists because something in a busy eye clinic
-            usually gets lost — a trend, an aftercare date, an order at the lab.
+            usually gets lost, a trend, an aftercare date, an order at the lab.
           </motion.p>
 
           <div className="mb-24 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
@@ -305,7 +305,7 @@ const EyeClinicFeatures = () => {
             variants={reveal}
             className="mb-4 text-2xl font-bold text-foreground md:text-3xl"
           >
-            The rest of the clinic —{" "}
+            The rest of the clinic -{" "}
             <span className="text-muted-foreground">included, not a separate product</span>
           </motion.h2>
           <motion.p
@@ -315,8 +315,8 @@ const EyeClinicFeatures = () => {
             variants={reveal}
             className="mb-10 max-w-2xl text-muted-foreground"
           >
-            Clinical work is only half of a practice. The other half — money, stock, staff, patients you
-            haven't seen in a year — sits in the same system, using the same records.
+            Clinical work is only half of a practice. The other half, money, stock, staff, patients you
+            haven't seen in a year, sits in the same system, using the same records.
           </motion.p>
 
           <div className="mb-24 grid gap-4 md:grid-cols-2">
@@ -428,7 +428,7 @@ const EyeClinicFeatures = () => {
                 Everyone sees their own job, and only their own job
               </h3>
               <p className="mb-5 font-medium text-primary">
-                Staff aren't trusted with everything by default — and nobody wastes time in screens that
+                Staff aren't trusted with everything by default, and nobody wastes time in screens that
                 aren't theirs.
               </p>
               <p className="mb-5 text-sm leading-relaxed text-muted-foreground">
@@ -470,14 +470,14 @@ const EyeClinicFeatures = () => {
                 href={WHATSAPP}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 rounded-full bg-primary px-10 py-4 font-bold text-primary-foreground transition-colors hover:bg-foreground"
+                className="inline-flex items-center justify-center gap-2 rounded-md bg-primary px-10 py-4 font-bold text-primary-foreground transition-colors hover:bg-foreground"
               >
                 <MessageCircle className="h-5 w-5" />
                 Talk to us on WhatsApp
               </a>
               <Link
                 to="/signup"
-                className="inline-flex items-center justify-center gap-2 rounded-full border border-primary px-10 py-4 font-bold text-primary transition-colors hover:bg-primary/10"
+                className="inline-flex items-center justify-center gap-2 rounded-md border border-primary px-10 py-4 font-bold text-primary transition-colors hover:bg-primary/10"
               >
                 Try demo
                 <ArrowRight className="h-4 w-4" />

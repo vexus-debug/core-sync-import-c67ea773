@@ -30,7 +30,7 @@ const TypingText = () => {
   }, [displayed, deleting, wordIndex]);
 
   return (
-    <span className="bg-gradient-to-r from-[hsl(var(--primary))] to-[hsl(var(--medical-teal))] bg-clip-text text-transparent">
+    <span className="bg-primary ">
       {displayed}
       <span className="animate-pulse text-[hsl(var(--primary))]">|</span>
     </span>
@@ -50,7 +50,7 @@ const HeroSection = () => {
           />
         ))}
       </div>
-      <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-transparent via-transparent to-[hsl(var(--medical-blue-dark))]" />
+      <div className="pointer-events-none absolute inset-0 " />
 
       <div className="container relative z-10">
         <motion.div
@@ -64,12 +64,12 @@ const HeroSection = () => {
             <TypingText />
           </h1>
           <p className="mx-auto mb-10 max-w-xl text-lg leading-relaxed text-white/60">
-            Stop chasing payments, fixing billing mistakes, and drowning in paperwork. Clinexus runs the business side of your clinic so you can focus on patients — and actually go home on time.
+            Stop chasing payments, fixing billing mistakes, and drowning in paperwork. Clinexus runs the business side of your clinic so you can focus on patients, and actually go home on time.
           </p>
           <a href="/signup">
             <Button
               size="lg"
-              className="gap-2 rounded-full bg-gradient-to-r from-[hsl(var(--primary))] to-[hsl(var(--medical-teal))] px-10 text-white shadow-lg shadow-[hsl(var(--primary))]/30 hover:opacity-90"
+              className="gap-2 rounded-full bg-primary px-10 text-white shadow-lg shadow-[hsl(var(--primary))]/30 hover:opacity-90"
             >
               Get Started <ArrowRight className="h-4 w-4" />
             </Button>

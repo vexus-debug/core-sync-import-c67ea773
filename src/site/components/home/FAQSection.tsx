@@ -9,30 +9,30 @@ import {
 const faqs = [
   {
     q: "Will this actually save me time, or is it just more software to manage?",
-    a: "Most clinic owners report saving 2–4 hours a day within the first week. Everything that used to require switching between tools — billing, scheduling, records, lab tracking — happens in one place. You stop managing software and start managing your clinic.",
+    a: "Most clinic owners report saving 2–4 hours a day within the first week. Everything that used to require switching between tools, billing, scheduling, records, lab tracking, happens in one place. You stop managing software and start managing your clinic.",
   },
   {
     q: "What if my staff isn't tech-savvy?",
-    a: "Clinexus is built to be as intuitive as a smartphone. Your receptionist, your nurses, your lab tech — they'll figure it out fast. We also provide onboarding support and tutorials built right into the platform.",
+    a: "Clinexus is built to be as intuitive as a smartphone. Your receptionist, your nurses, your lab tech, they'll figure it out fast. We also provide onboarding support and tutorials built right into the platform.",
   },
   {
     q: "How quickly will I see a difference?",
-    a: "Most clinics see fewer no-shows within the first week (automated reminders kick in immediately) and cleaner billing from day one. The full impact — better cash flow, staff accountability, real profitability data — compounds quickly as your team settles in.",
+    a: "Most clinics see fewer no-shows within the first week (automated reminders kick in immediately) and cleaner billing from day one. The full impact, better cash flow, staff accountability, real profitability data, compounds quickly as your team settles in.",
   },
   {
     q: "Can my patients book appointments themselves?",
-    a: "Yes. Your clinic gets a branded public page where patients can view your services and book directly — reducing phone calls and keeping your reception focused on in-clinic care.",
+    a: "Yes. Your clinic gets a branded public page where patients can view your services and book directly, reducing phone calls and keeping your reception focused on in-clinic care.",
   },
   {
     q: "What if I grow and need more from the system?",
-    a: "Clinexus scales with you. Start on Starter, upgrade to Growth or Pro as your team and revenue grow. You never have to switch platforms — just unlock more as you need it.",
+    a: "Clinexus scales with you. Start on Starter, upgrade to Growth or Pro as your team and revenue grow. You never have to switch platforms, just unlock more as you need it.",
   },
 ];
 
 const FAQSection = () => {
   return (
     <section className="relative overflow-hidden bg-[hsl(var(--medical-blue-dark))] py-24 md:py-32">
-      <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-white/[0.02] via-transparent to-white/[0.02]" />
+      <div className="pointer-events-none absolute inset-0 " />
       <div className="pointer-events-none absolute right-0 bottom-0 h-[400px] w-[400px] translate-x-1/3 translate-y-1/3 rounded-full bg-[hsl(var(--primary))]/10 blur-3xl" />
 
       <div className="container relative z-10">
@@ -50,7 +50,7 @@ const FAQSection = () => {
             The Questions Every Clinic Owner Asks Us
           </h2>
           <p className="text-white/60">
-            Honest answers — no marketing fluff.
+            Honest answers, no marketing fluff.
           </p>
         </motion.div>
 

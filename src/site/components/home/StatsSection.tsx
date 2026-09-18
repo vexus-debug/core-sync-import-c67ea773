@@ -10,7 +10,7 @@ const stats = [
 const StatsSection = () => {
   return (
     <section className="relative overflow-hidden py-20">
-      <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-secondary/20 via-background to-muted/20" />
+      <div className="pointer-events-none absolute inset-0 bg-background" />
       <div className="container relative z-10">
         <motion.div
           initial={{ opacity: 0 }}

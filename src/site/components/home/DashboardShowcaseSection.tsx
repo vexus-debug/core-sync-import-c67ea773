@@ -25,7 +25,7 @@ const DashboardShowcaseSection = () => {
 
   return (
     <section className="relative site-section-tint overflow-hidden py-20 md:py-28">
-      <div className="pointer-events-none absolute inset-0 bg-gradient-to-b from-muted/30 via-background to-secondary/20" />
+      <div className="pointer-events-none absolute inset-0 bg-muted/20" />
       <div className="container relative z-10">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -40,7 +40,7 @@ const DashboardShowcaseSection = () => {
             This Is What Running a Tight Clinic Looks Like
           </h2>
           <p className="mx-auto max-w-xl text-muted-foreground">
-            No mockups here — these are real screens from a real clinic running on Clinexus today. Swipe through and see for yourself.
+            No mockups here, these are real screens from a real clinic running on Clinexus today. Swipe through and see for yourself.
           </p>
         </motion.div>
 
@@ -77,7 +77,7 @@ const DashboardShowcaseSection = () => {
           className="mt-10 text-center"
         >
           <Link to="/industries">
-            <Button size="lg" className="gap-2 rounded-full bg-gradient-to-r from-[hsl(var(--primary))] to-[hsl(var(--medical-teal))] text-white shadow-lg shadow-primary/30 hover:opacity-90">
+            <Button size="lg" className="gap-2 rounded-md bg-primary text-white shadow-lg shadow-primary/30 hover:opacity-90">
               Take the Full Tour <ArrowRight className="h-4 w-4" />
             </Button>
           </Link>

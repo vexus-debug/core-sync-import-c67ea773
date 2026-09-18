@@ -138,12 +138,12 @@ const coreGroups = [
     title: "Finance & billing",
     benefit: "Know what you earned, what it cost and what's still owed.",
     points: [
-      "Billing and invoicing with payment recording",
-      "Estimates before the patient commits to treatment",
-      "Payment plans for higher-value work like implants and orthodontics",
-      "Expenses tracked against the clinic",
-      "Staff commission payouts and revenue allocation",
-      "Profitability reporting by treatment and clinician",
+"Billing and invoicing with payment recording",
+"Estimates before the patient commits to treatment",
+"Payment plans for higher-value work like implants and orthodontics",
+"Expenses tracked against the clinic",
+"Staff commission payouts and revenue allocation",
+"Profitability reporting by treatment and clinician",
     ],
   },
   {
@@ -151,11 +151,11 @@ const coreGroups = [
     title: "Inventory & supply chain",
     benefit: "Never lose a procedure to an empty shelf or a forgotten reorder.",
     points: [
-      "Inventory and real-time stock levels",
-      "Inventory costs and valuation",
-      "Treatment materials linked directly to the treatments that consume them",
-      "Suppliers and purchase orders kept against the items they deliver",
-      "Stock levels visible before the next patient is in the chair",
+"Inventory and real-time stock levels",
+"Inventory costs and valuation",
+"Treatment materials linked directly to the treatments that consume them",
+"Suppliers and purchase orders kept against the items they deliver",
+"Stock levels visible before the next patient is in the chair",
     ],
   },
   {
@@ -163,11 +163,11 @@ const coreGroups = [
     title: "Administration",
     benefit: "Run the clinic on evidence, and prove what happened.",
     points: [
-      "Staff records and role management",
-      "Documents stored and categorised",
-      "Audit log showing who changed what and when",
-      "Website settings for the public clinic site",
-      "Shop management for products patients can buy online",
+"Staff records and role management",
+"Documents stored and categorised",
+"Audit log showing who changed what and when",
+"Website settings for the public clinic site",
+"Shop management for products patients can buy online",
     ],
   },
   {
@@ -175,31 +175,31 @@ const coreGroups = [
     title: "Communication & everywhere features",
     benefit: "Less shouting across the corridor, fewer dropped handovers.",
     points: [
-      "Internal messages between staff",
-      "Notifications that surface what needs action",
-      "In-app tutorials to get new staff productive quickly",
-      "Settings, subscription and profile in one place",
-      "Access per screen set by clinic role",
+"Internal messages between staff",
+"Notifications that surface what needs action",
+"In-app tutorials to get new staff productive quickly",
+"Settings, subscription and profile in one place",
+"Access per screen set by clinic role",
     ],
   },
 ];
 
 const publicPoints = [
-  "A public microsite for the clinic at its own address, with an online shop attached",
-  "Patients can look up their results without an account or a phone call to reception",
-  "Everything the public sees is driven by the same records staff already maintain",
+"A public microsite for the clinic at its own address, with an online shop attached",
+"Patients can look up their results without an account or a phone call to reception",
+"Everything the public sees is driven by the same records staff already maintain",
 ];
 
 const roles = [
-  "Owner",
-  "Admin",
-  "Dentist",
-  "Receptionist",
-  "Hygienist",
-  "Assistant",
-  "Accountant",
-  "Lab technician",
-  "Lab assistant",
+"Owner",
+"Admin",
+"Dentist",
+"Receptionist",
+"Hygienist",
+"Assistant",
+"Accountant",
+"Lab technician",
+"Lab assistant",
 ];
 
 const DentalClinicFeatures = () => {
@@ -215,7 +215,7 @@ const DentalClinicFeatures = () => {
               transition={{ duration: 0.5 }}
               className="mb-5 text-xs font-semibold uppercase tracking-[0.25em] text-primary"
             >
-              Clinexus for Dental Clinics — Features
+              Clinexus for Dental Clinics, Features
             </motion.p>
 
             <motion.h1
@@ -235,7 +235,7 @@ const DentalClinicFeatures = () => {
               transition={{ delay: 0.12 }}
               className="mx-auto mb-10 max-w-2xl text-lg leading-relaxed text-muted-foreground"
             >
-              Clinexus is a multi-clinic platform — dental, eye care and diagnostic centres. A dental
+              Clinexus is a multi-clinic platform, dental, eye care and diagnostic centres. A dental
               practice gets its own workspace with a sidebar built around dentistry, plus every part of
               running a practice underneath it. Here's what that gives you, day to day.
             </motion.p>
@@ -251,14 +251,14 @@ const DentalClinicFeatures = () => {
                 href={WHATSAPP}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center gap-2 rounded-full bg-primary px-10 py-4 font-bold text-primary-foreground transition-colors hover:bg-foreground"
+                className="inline-flex items-center gap-2 rounded-md bg-primary px-10 py-4 font-bold text-primary-foreground transition-colors hover:bg-foreground"
               >
                 <MessageCircle className="h-5 w-5" />
                 Talk to us on WhatsApp
               </a>
               <Link
                 to="/industries/dental-clinics"
-                className="inline-flex items-center gap-2 rounded-full border border-primary px-10 py-4 font-bold text-primary transition-colors hover:bg-primary/10"
+                className="inline-flex items-center gap-2 rounded-md border border-primary px-10 py-4 font-bold text-primary transition-colors hover:bg-primary/10"
               >
                 See the dental clinic overview
                 <ArrowRight className="h-4 w-4" />
@@ -274,7 +274,7 @@ const DentalClinicFeatures = () => {
             variants={reveal}
             className="mb-4 text-2xl font-bold text-foreground md:text-3xl"
           >
-            The dental workflow —{" "}
+            The dental workflow -{" "}
             <span className="text-muted-foreground">what it saves you from</span>
           </motion.h2>
           <motion.p
@@ -285,7 +285,7 @@ const DentalClinicFeatures = () => {
             className="mb-10 max-w-2xl text-muted-foreground"
           >
             These are the screens in your sidebar. Each one exists because something in a busy dental
-            practice usually gets lost — a chart, a wait time, a payment plan, a stock level.
+            practice usually gets lost, a chart, a wait time, a payment plan, a stock level.
           </motion.p>
 
           <div className="mb-24 grid gap-4 md:grid-cols-2 lg:grid-cols-3">
@@ -323,7 +323,7 @@ const DentalClinicFeatures = () => {
             variants={reveal}
             className="mb-4 text-2xl font-bold text-foreground md:text-3xl"
           >
-            The rest of the clinic —{" "}
+            The rest of the clinic -{" "}
             <span className="text-muted-foreground">included, not a separate product</span>
           </motion.h2>
           <motion.p
@@ -333,8 +333,8 @@ const DentalClinicFeatures = () => {
             variants={reveal}
             className="mb-10 max-w-2xl text-muted-foreground"
           >
-            Clinical work is only half of a practice. The other half — money, stock, staff and patients you
-            haven't seen in a year — sits in the same system, using the same records.
+            Clinical work is only half of a practice. The other half, money, stock, staff and patients you
+            haven't seen in a year, sits in the same system, using the same records.
           </motion.p>
 
           <div className="mb-24 grid gap-4 md:grid-cols-2">
@@ -435,7 +435,7 @@ const DentalClinicFeatures = () => {
                 Everyone sees their own job, and only their own job
               </h3>
               <p className="mb-5 font-medium text-primary">
-                Staff aren't trusted with everything by default — and nobody wastes time in screens that
+                Staff aren't trusted with everything by default, and nobody wastes time in screens that
                 aren't theirs.
               </p>
               <p className="mb-5 text-sm leading-relaxed text-muted-foreground">
@@ -478,14 +478,14 @@ const DentalClinicFeatures = () => {
                 href={WHATSAPP}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center gap-2 rounded-full bg-primary px-10 py-4 font-bold text-primary-foreground transition-colors hover:bg-foreground"
+                className="inline-flex items-center justify-center gap-2 rounded-md bg-primary px-10 py-4 font-bold text-primary-foreground transition-colors hover:bg-foreground"
               >
                 <MessageCircle className="h-5 w-5" />
                 Talk to us on WhatsApp
               </a>
               <Link
                 to="/signup"
-                className="inline-flex items-center justify-center gap-2 rounded-full border border-primary px-10 py-4 font-bold text-primary transition-colors hover:bg-primary/10"
+                className="inline-flex items-center justify-center gap-2 rounded-md border border-primary px-10 py-4 font-bold text-primary transition-colors hover:bg-primary/10"
               >
                 Try demo
                 <ArrowRight className="h-4 w-4" />
