@@ -3,7 +3,6 @@ import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet";
 import { Menu, ArrowRight } from "lucide-react";
-import clinexusLogo from "@/assets/site/clinexus-logo.png";
 import clinexusLogoWhite from "@/assets/site/clinexus-logo-white.png";
 
 const navLinks = [
@@ -52,7 +51,7 @@ const Navbar = () => {
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2 shrink-0">
           <img
-            src={darkHero ? clinexusLogoWhite : clinexusLogo}
+            src={clinexusLogoWhite}
             alt="Clinexus"
             className="h-8 transition-all duration-300"
           />
@@ -119,7 +118,7 @@ const Navbar = () => {
             <div className="flex h-full flex-col">
               <div className="flex items-center border-b border-border px-6 py-4">
                 <Link to="/" onClick={() => setOpen(false)}>
-                  <img src={clinexusLogo} alt="Clinexus" className="h-8" />
+                  <img src={clinexusLogoWhite} alt="Clinexus" className="h-8" />
                 </Link>
               </div>
 
